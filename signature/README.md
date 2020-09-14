@@ -1,0 +1,63 @@
+# Email signature
+
+<table style="font-family: 'Lucida Console', Monaco, monospace; font-size:11px; color: #25272A;">
+  <tr>
+    <td>
+      <img width="116" src='https://roti.com/static/email/roti-logo-email-signature.png' alt="roti" />
+    </td>
+    <td style="padding: 0 0 0 10px;">
+      <table style="border-left: 1px solid #D4DBE4; padding-left:10px;">
+        <tr>
+          <td style="font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size:12px; font-weight: bold;">Nicolas Nieto</td>
+        </tr>
+        <tr>
+          <td>VP of Marketing and Brand</td>
+        </tr>
+        <tr>
+          <td>
+            <img width="14" src='https://roti.com/static/email/phone-icon-signature.png' alt="phone" />
+            <span>412 768 9484</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img width="14" src='https://roti.com/static/email/location-icon-signature.png' alt="location" />
+            <span>221 West Wacker Drive <strong style="color:#D4DBE4; font-weight: normal;">|</strong> 3rd Floor, PMB 800A.<strong style="color:#D4DBE4; font-weight: normal;">|</strong> Chicago, IL 60606</span>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+```html
+<table style="font-family: 'Lucida Console', Monaco, monospace; font-size:11px; color: #25272A;">
+  <tr>
+    <td>
+      <img width="116" src='https://roti.com/static/email/roti-logo-email-signature.png' alt="roti" />
+    </td>
+    <td style="padding: 0 0 0 10px;">
+      <table style="border-left: 1px solid #D4DBE4; padding-left:10px;">
+        <tr>
+          <td style="font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size:12px; font-weight: bold;">Nicolas Nieto</td>
+        </tr>
+        <tr>
+          <td>VP of Marketing and Brand</td>
+        </tr>
+        <tr>
+          <td>
+            <img width="14" src='https://roti.com/static/email/phone-icon-signature.png' alt="phone" />
+            <span>412 768 9484</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img width="14" src='https://roti.com/static/email/location-icon-signature.png' alt="location" />
+            <span>221 West Wacker Drive <strong style="color:#D4DBE4; font-weight: normal;">|</strong> 3rd Floor, PMB 800A.<strong style="color:#D4DBE4; font-weight: normal;">|</strong> Chicago, IL 60606</span>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+```
