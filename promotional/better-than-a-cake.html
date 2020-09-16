@@ -29,6 +29,7 @@
         width: 772px;
         height: 550px;  
         vertical-align:auto;
+        position: relative;
       }
       .roti-email-body h3 {
         font-weight: bold;
@@ -48,6 +49,7 @@
         background-color: #D4DBE4;
         text-align: center;
         padding: 50px 0 50px;
+        position: relative;
       }
       .roti-email-content-box h3{
         font-weight: bold;
@@ -94,9 +96,13 @@
         color: #FBF8EA;
       }
       .roti-email-footer {
-        background-color: #FBF8EA;
+        background-color: #D4DBE4;
         text-align: center;
+      }
+      .roti-email-footer-wrapper {
         padding: 20px 0;
+        background-color: #FBF8EA;
+        border-top-right-radius: 20px;
       }
       .roti-email-footer p.roti-legal {
         width: 70%;
@@ -121,6 +127,12 @@
       .roti-unsubscribe:visited{
         color: #25272A;
       }
+      .roti-container-init {
+        position: absolute;
+        width: 28px;
+        bottom: -1px;
+        left: 0;
+      }
     </style>
   </head>
   <body style="background-color: #ffffff; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
@@ -132,7 +144,7 @@
       </tr>
       <tr>
         <td class="roti-email-body">
-          
+          <img src="https://roti.com/static/email/border-left-top-blue.png" class="roti-container-init" />
         </td>
       </tr>
       <tr>
@@ -142,20 +154,23 @@
           <a class="roti-main-button-action" href="">
             <span>Get my gift</span>
           </a>
+          <img src="https://roti.com/static/email/border-left-top-tagine.png" class="roti-container-init" />
         </td>
       </tr>
       <tr>
         <td class="roti-email-footer">
-          <p class="roti-social-actions">
-            <a href="">
-              <img class="roti-order-now" src="https://roti.com/static/email/roti-email-footer-order-now.png" />
-            </a>
-            <a href="">
-              <img class="roti-follow-us" src="https://roti.com/static/email/roti-email-follow-us-instagram.png" />
-            </a>
-          </p>
-          <p class="roti-legal">Available at participating locations. Non-cutomizable. 'Roti' and 'Roti Modern Mediterranean' are registered trademarks of Roti Restaurants, LLC &copy; 2020</p>
-          <a class="roti-unsubscribe" href="#">Unsubscribe</a>
+          <div class="roti-email-footer-wrapper">
+            <p class="roti-social-actions">
+              <a href="">
+                <img class="roti-order-now" src="https://roti.com/static/email/roti-email-footer-order-now.png" />
+              </a>
+              <a href="">
+                <img class="roti-follow-us" src="https://roti.com/static/email/roti-email-follow-us-instagram.png" />
+              </a>
+            </p>
+            <p class="roti-legal">Available at participating locations. Non-cutomizable. 'Roti' and 'Roti Modern Mediterranean' are registered trademarks of Roti Restaurants, LLC &copy; 2020</p>
+            <a class="roti-unsubscribe" href="#">Unsubscribe</a>
+          </div>
         </td>
       </tr>
     </table>
